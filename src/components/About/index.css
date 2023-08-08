@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+}
+.Home-container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 10px 30px;
+}
+.not-found-image {
+  height: 300px;
+  width: 300px;
+}
+.not-found-heading {
+  font-size: 30px;
+  color: black;
+  font-family: 'Roboto';
+}
+.not-found-description {
+  font-size: 16px;
+  color: black;
+  font-family: 'Roboto';
+}
+.nav-link {
+  list-style-type: none;
+  text-decoration-line: none;
+}
